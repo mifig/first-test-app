@@ -1,0 +1,15 @@
+<h1>Various contact info about us:</h1>
+
+<%# Generate Ruby Code to mimic this list: %>
+<%# <ul>
+  <li>suuns</li>
+  <li>badbadnotgood</li>
+  <li>tony carreira</li>
+  <li>quim barreiros</li>
+</ul> %>
+
+<ul>
+  <% @bands.each do |band| %>
+    <li><%= band %></li>
+  <% end %>
+</ul>

@@ -11,6 +11,11 @@
   </head>
 
   <body>
+    <div style="display: flex; justify-content: space-between; background: black; color: white; padding: 16px;">
+      <%= link_to "Home", root_path %>
+      <%= link_to "About us", about_path %>
+      <%= link_to "Contact us", contact_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
